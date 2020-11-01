@@ -22,7 +22,7 @@ h2{
   margin-bottom: 0px;
   background-image: url("Adam.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 .round{
   border-radius: 10%;
