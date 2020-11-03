@@ -1,6 +1,8 @@
-h1{
+h1{ /* make visually sharp*/
   text-align: center;
-  background-color: blue;
+  background-color: darkblue;
+  color: white;
+  margin-bottom: 0px;
 }
 hr{
   width: 500px;
@@ -13,16 +15,21 @@ hr{
 
 h2{
   text-align: center;
-  font-size:48px;
-  background
-  width: 300px;
-  height: 300px;
+  font-size:30px;
+  color: white;
+  background-color: teal;
+  text-shadow: 2px 2px darkblue;
+  width: 100%;
+  height: 50px;
   border: 2;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-image: url("Adam.png");
-  background-repeat: no-repeat;
+  /*background-image: url("Adam.png");
+  background-repeat: no-repeat;*/
   background-size: cover;
+}
+h3{ /*not too close to the left margin.  I like a little space*/
+  margin-left: 5px;
 }
 .round{
   border-radius: 10%;
@@ -37,6 +44,7 @@ div{
   padding-right: 40px;
 }
 img{
-  max-width: 100%;
+  max-width: 100%; /* fill the available width of any screen*/
 }
+/* helps see when a user is about to click on a link*/
 a:hover {color:green}
